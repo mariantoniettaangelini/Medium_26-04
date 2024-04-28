@@ -1,0 +1,401 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: rgba(255, 192, 23, 255);
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+#section1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid black;
+}
+
+#logo {
+  margin-left: 9em;
+}
+
+#menu {
+  margin-right: 10em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#menu ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#menu ul li {
+  padding: 1em;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+#getStarted {
+  height: 3em;
+  width: 8em;
+  background-color: rgba(24, 25, 25, 255);
+  color: white;
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*-----------------------------MAIN*/
+
+#section2 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid black;
+  background-color: rgba(255, 192, 23, 255);
+}
+
+#stayCurious {
+  margin-top: 5em;
+  margin-left: 9em;
+  width: 40%;
+}
+#stayCurious h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 6em;
+}
+
+#section2 p {
+  margin-top: 1em;
+  font-size: 1.8em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(24, 25, 25, 255);
+}
+
+#stayCurious button {
+  margin-top: 3.5em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  border: transparent;
+  height: 2.3em;
+  background-color: rgba(24, 25, 25, 255);
+  color: white;
+  width: 13em;
+  font-size: large;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#M {
+  width: 36em;
+}
+/**/
+main {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid rgb(196, 191, 191, 0.3);
+}
+
+#trending {
+  margin: 0 9em;
+  display: flex;
+  align-items: center;
+}
+
+#trends {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 10em;
+  justify-content: space-between;
+}
+
+.trending {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.medium {
+  margin-top: 2em;
+}
+
+.notizie {
+  padding: 0.5em;
+  display: flex;
+}
+
+.news {
+  width: 300px;
+}
+
+.notizie h6 {
+  font-size: 2em;
+  font-weight: 800;
+  color: rgba(198, 199, 199, 1);
+  opacity: 0.5;
+  align-self: flex-start;
+  margin: 5px 10px;
+}
+
+.notizie img {
+  border-radius: 2em;
+  width: 20px;
+  margin: 0 0.5em;
+}
+
+.notizie h4 {
+  font-size: 15px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-weight: 500;
+}
+
+.notizie h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.notizie p {
+  opacity: 0.8;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/*-------------------------------FOOTER*/
+footer {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 0.5px solid black;
+}
+
+#container3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 4em 10em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.book-authors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.authors h4 {
+  font-size: small;
+  font-weight: 500;
+  margin: 0.7em 0;
+  display: flex;
+  align-items: center;
+}
+
+.authors img:first-of-type {
+  border-radius: 2em;
+  width: 20px;
+  margin-right: 0.5em;
+}
+
+.authors h3 {
+  font-size: larger;
+  font-weight: 700;
+  margin: 0.7em 0;
+}
+
+.authors p {
+  color: rgb(88, 88, 88);
+  margin: 0.5em 0;
+}
+
+.authors p span:first-of-type {
+  background-color: rgb(211, 206, 206);
+  padding: 4px 7px;
+  border-radius: 2em;
+}
+
+.authors p:nth-of-type(2) {
+  font-size: small;
+}
+
+.authors p img:nth-of-type(1) {
+  height: 18px;
+}
+
+.authors p span:nth-of-type(2) {
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  margin-right: 3em;
+}
+
+/**/
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photos img {
+  max-width: 200px;
+  margin: 1em;
+}
+
+/**/
+.tags {
+  width: 24em;
+}
+
+.tags h6 {
+  text-transform: uppercase;
+  margin: 1em 0.8em;
+  font-weight: 600;
+}
+
+.tags button {
+  background-color: white;
+  color: rgb(73, 68, 68);
+  padding: 0.5em;
+  border: 1px rgb(195, 184, 184) solid;
+  margin: 0.5em 1em;
+}
+
+.keywords {
+  margin: 2em 0;
+  border-top: 1px solid rgb(155, 151, 151);
+}
+
+.keywords ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0.5em;
+}
+
+.keywords ul li {
+  padding-inline: 1em;
+  padding: 0.5em;
+  font-size: small;
+  color: grey;
+}
+
+/*-------------------------------MOBILE*/
+@media screen and (max-width: 500px) {
+  
+  #M {
+    display: none;
+  }
+
+  #logo {
+    width: 8em;
+    margin-left: 0.5em;
+  }
+
+  #menu ul a:nth-child(1),
+  #menu ul a:nth-child(2),
+  #menu ul a:nth-child(3) {
+    display: none;
+  }
+
+  #menu ul li {
+    font-size: 13px;
+    width: 5em;
+  }
+
+  #menu {
+    margin-right: 3em;
+  } 
+
+  /**/
+
+  #stayCurious {
+    margin-left: 0.8em;
+  }
+  #section2 h1 {
+    font-size: 4.5em;
+    margin-left: 0;
+  }
+
+  #section2 p {
+    font-size: 1em;
+  }
+
+  #section2 button {
+    width: 11em;
+    height: 2em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    font-size: small;
+  }
+
+
+/**/
+.number {
+  display: none;
+}
+#trending {
+  margin-left: 0.8em;
+}
+
+#trends {
+  margin-left: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/**/
+
+
+#container3 {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 0.8em;
+}
+
+.authors p span:nth-of-type(2) {
+  display: inline;
+}
+.photos {
+  display: none
+}
+.tags {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 2px solid rgb(196, 191, 191, 0.3);
+}
+
+.keywords {
+  border-top: none;
+  margin-bottom: 0.5em;
+}
+}
